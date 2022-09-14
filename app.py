@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 
 
-model_nb = joblib.load('News-Category')
+model_nb = joblib.load('NEWS-CATEGORY')
 
 st.title('NEWS-CATEGORY CLASSIFIER')
 ip = st.text_input('Enter the news')
